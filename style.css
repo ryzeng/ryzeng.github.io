@@ -6,6 +6,7 @@ h1,
 h2 {
 	font-weight: bold;
 }
+
 p {
 	font-size: 16px;
 	color: #cdcdcd;
@@ -44,6 +45,31 @@ p {
 .row {
 	padding: 5.5% 155px;
 	background-color: #ecf0f1;
+}
+
+.portfolio-item {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.portfolio-item h3 {
+	text-align: center;
+	color: #e67e22;
+	font-size: 35px;
+}
+
+.portfolio-item p {
+	text-align: center;
+	color: #34495e;
+	font-size: 24px;
+}
+
+.portfolio-item h3 a { 
+	text-align: center;
+	color: #e67e22;
+	font-size: 35px;
 }
 
 .third-jumbo {
