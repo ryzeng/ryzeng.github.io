@@ -14,32 +14,40 @@ p {
 
 .navbar {
 	margin-bottom: 0;
-	background-color: #ecf0f1;
-	color: #34495e;
+	background-color: #34495e;
+	color: #ecf0f1;
 }
 
 .navbar a {
+	color: #ecf0f1;
+	font-size: 24px;
+	text-decoration: none; 
+}
+
+.navbar-header a img {
+	margin-top: 18px;
+	margin-bottom: 15px;
+}
+
+.nav a:hover {
 	color: #34495e;
-	font-size: 18px;
+}
+
+.nav a:focus {
+	color: #34495e;
+}
+
+.nav a:active {
+	color: #34495e;
 }
 
 .jumbotron {
-	background: #ecf0f1;
-	color: #34495e;
-	text-align: left;
-	padding-top: 5.5%;
-	padding-bottom: 5.5%;
-	margin: 0;
-}
-
-.second-jumbo {
 	background: #34495e;
 	color: #ecf0f1;
-	text-align: right;
-}
-
-.second-jumbo h2 {
-	font-size: 26px;
+	text-align: left;
+	padding-top: 0%;
+	padding-bottom: 8%;
+	margin: 0;
 }
 
 .row {
@@ -54,28 +62,12 @@ p {
 	margin-bottom: 0;
 }
 
-.portfolio-item h3 {
-	text-align: center;
-	color: #e67e22;
-	font-size: 35px;
-}
-
-.portfolio-item p {
-	text-align: center;
-	color: #34495e;
-	font-size: 24px;
-}
-
-.portfolio-item h3 a { 
-	text-align: center;
-	color: #e67e22;
-	font-size: 35px;
-}
-
 .third-jumbo {
 	background: #34495e;
 	color: #ecf0f1;
 	text-align: left;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
 .third-jumbo h2 {
@@ -83,8 +75,9 @@ p {
 }
 
 .footer {
-	width: 100%
+	width: 100%;
 	color: #34495e;
+	background-color: #ecf0f1;
 	padding: 40px 0;
 }
 

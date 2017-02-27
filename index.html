@@ -12,18 +12,19 @@
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
   <title>Ryan Zeng</title>
-  <link rel="icon" href="ryanlogo.png">
+  <link rel="icon" href="images/logo.png">
 </head>
 <body>
 
 <nav name="page-top" class="navbar navbar-fixed-">
   <div class="container">
     <div class="navbar-header">
-      <a href="#page-top" class="navbar-brand smoothScroll">Ryan Zeng</a>
+      <a href="index.html" class="smoothScroll">
+          <img src="images/lightlogo.png">
+      </a>
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about" class="smoothScroll">About</a></li>
         <li><a href="#work" class="smoothScroll">Work</a></li>
         <li><a href="#contact" class="smoothScroll">Contact</a></li>
       </ul>
@@ -33,121 +34,38 @@
 
 <div class="jumbotron">
   <div class="container">
-    <h1>Hello, my name is ____
+    <h1 style="font-size: 40px">
+      Hello, my name is <span style="color:#e67e22">Ryan Zeng</span>. 
       <br>
-      
       <br>
-        McLovin'. 
-      <br> 
-        <span style="color:#e67e22">Ryan Zeng. </span>
+      I'm a student at the University of California, Berkeley, studying Computer Science. 
       <br>
-        Hodor. 
+      <br>
+      I'm interested in <span style="color:#e67e22">UI/UX, product design, and product management.</span>
+      <br>
+      <br>
+      I'm currently looking for an internship for summer 2017. Contact me for more information!
     </h1>
   </div>
 </div>
 
-<div name="about" class="jumbotron second-jumbo">
-  <div class="container">
-    <h1>about.</h1>
-    <h2>
-      Born and raised in <span style="color:#e67e22">southern California.</span> 
-      <br>
-      <span style="color:#e67e22">Computer Science</span> at the <span style="color:#e67e22">University of California, Berkeley.</span>
-      <br>
-      Aspiring <span style="color:#e67e22">programmer</span> and <span style="color:#e67e22">designer.</span> 
-    </h2>
-  </div>
+<div name="work" class="row">
+  <div class="col-md-4 portfolio-item">
+        <a href="myTurn.html">
+            <img class="img-responsive" src="images/myTurn.png" alt="">
+        </a>
+    </div>
+    <div class="col-md-4 portfolio-item">
+        <a href="browse.html">
+            <img class="img-responsive" src="images/browse.png" alt="">
+        </a>
+    </div>
+    <div class="col-md-4 portfolio-item">
+        <a href="graphicdesign.html">
+            <img class="img-responsive" src="images/circle.png" alt="">
+        </a>
+    </div>
 </div>
-
-<!-- Projects Row -->
-        <div name="work" class="row">
-            <div class="col-md-6 portfolio-item">
-                <!-- a href="#"> -->
-                    <img class="img-responsive" src="circle.png" alt="">
-                <!-- </a> -->
-                <h3>
-                  Forest
-                </h3>
-                <p>A circular scope of a sea-green forest.</p>
-            </div>
-            <div class="col-md-6 portfolio-item">
-                <!-- <a href="#"> -->
-                    <img class="img-responsive" src="mountain.png" alt="">
-               <!--  </a> -->
-                <h3>
-                    Depth
-                </h3>
-                <p>Just a mountain range.</p>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- Projects Row -->
-        <div class="row">
-            <div class="col-md-6 portfolio-item">
-                <!-- <a href="#"> -->
-                    <img class="img-responsive" src="ryanlogo.png" alt="">
-                <!-- </a> -->
-                <h3>
-                    Personal Logo
-                </h3>
-                <p>Spot the "r" and the "z".</p>
-            </div>
-            <div class="col-md-6 portfolio-item">
-                <!-- <a href="#"> -->
-                    <img class="img-responsive" src="trails.png" alt="">
-                <!-- </a> -->
-                <h3>
-                    Pentagons or Trails
-                </h3>
-                <p>Which do you see?</p>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <div class="row">
-            <div class="col-md-6 portfolio-item">
-                <!-- <a href="#"> -->
-                    <img class="img-responsive" src="agamotto.png" alt="">
-                <!-- </a> -->
-                <h3>
-                    The Eye of Agamotto
-                </h3>
-                <p>Turn back the clock. Inspired by Doctor Strange.</p>
-            </div>
-            <div class="col-md-6 portfolio-item">
-                <a href="browse.html">
-                    <img class="img-responsive" src="browse.png" alt="">
-                </a>
-                <h3>
-                    <a href="browse.html">Browse</a>
-                </h3>
-                <p>A browser extension to enhance your online shopping and delivery experiences.</p>
-            </div>
-        </div>
-
-       <!--  <div class="row">
-            <div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Five</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-            <div class="col-md-6 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Six</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-        </div>
-   -->
-
 
 <div name="contact" class="jumbotron third-jumbo">
   <div class="container">
@@ -166,10 +84,9 @@
   </div>
 </footer>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="javascript/smoothscroll.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="javascript/smoothscroll.js"></script>
+
 </body>
 </html>

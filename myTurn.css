@@ -40,26 +40,23 @@ p {
 	color: #34495e;
 }
 
-.row {
-	padding: 0 155px;
-	background-color: #ecf0f1;
-}
-
 .jumbotron {
 	background: #34495e;
 	color: #ecf0f1;
 	text-align: center;
-	padding-top: 0%;
-	padding-bottom: 4%;
+	padding-top: 10%;
+	padding-bottom: 16%;
 	margin: 0;
 }
 
-.images {
-	background-color: #ecf0f1; 
+.row {
+	padding: 5.5% 155px;
+	background-color: #ecf0f1;
 }
 
 .slide {
-	padding: 0px 300px;
+	padding: 7.5px 300px;
+	position:; 
 }
 
 .footer {
