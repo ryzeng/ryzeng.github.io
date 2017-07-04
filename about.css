@@ -45,7 +45,7 @@ body {
 	top: 30%;
 	bottom: 0; 
 	right: 0;
-	width: 375px; /* Width of navigation frame */
+	width: 425px; /* Width of navigation frame */
 	height: 100%;
 	overflow: hidden; /* Disables scrollbars on the navigation frame. To enable scrollbars, change "hidden" to "scroll" */
 	background: #eee;
@@ -55,7 +55,7 @@ body {
 	position: fixed;
 	top: 0; 
 	left: 0;
-	right: 375px; /* Set this to the width of the navigation frame */
+	right: 425px; /* Set this to the width of the navigation frame */
 	bottom: 0;
 	overflow: auto; 
 	background: #e0e0e0;
@@ -83,23 +83,38 @@ nav ul a {
 		
 /*IE6 fix*/
 * html body{
-	padding: 0 375px 0 0; /* Set the second value to the width of the navigation frame */
+	padding: 0 425px 0 0; /* Set the second value to the width of the navigation frame */
 }
 
-* html main{ 
+* html main { 
 	height: 100%; 
 	width: 100%; 
 }
 
 .introduction {
-	margin-top: 5%;
-	font-size: 48px;
+	margin-top: 15%;
+	font-size: 16px; 
+	font-weight: 300;
 }
 
-.text {
-	margin-top: 16px;
-	font-size: 14px;
-	font-weight: 300; 
+.introduction a:link {
+	text-decoration: none; 
+	color: #1abc9c;
+}
+
+.introduction a:hover {
+	text-decoration: none; 
+	color: #1abc9c;
+}
+
+.introduction a:active {
+	text-decoration: none; 
+	color: #1abc9c;
+}
+
+.introduction a:visited {
+	text-decoration: none; 
+	color: #1abc9c;
 }
 
 .link:link {

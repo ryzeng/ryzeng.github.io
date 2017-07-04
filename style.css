@@ -1,86 +1,114 @@
-body {
-	color: #ecf0f1;
-	font-family: 'Fira Sans', sans-serif;
-}
-h1,
-h2 {
-	font-weight: bold;
-}
-
 p {
 	font-size: 16px;
-	color: #cdcdcd;
+	color: #333;
 }
 
-.navbar {
-	margin-bottom: 0;
-	background-color: #34495e;
-	color: #ecf0f1;
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	height: 100%; 
+	max-height: 100%; 
+	font-family: 'Montserrat', sans-serif;
+	/*font-family: 'Raleway', sans-serif;*/
+	/*font-family: 'Permanent Marker', cursive;*/
+	background-color: #eee;
+	color: #333;
+	line-height: 1.5em;
 }
 
-.navbar a {
-	color: #ecf0f1;
-	font-size: 24px;
+.name {
+	font-size: 40px;
+	font-weight: 400; 
+}
+
+.name:link {
 	text-decoration: none; 
 }
 
-.navbar-header a img {
-	margin-top: 18px;
-	margin-bottom: 15px;
+.name:hover {
+	text-decoration: none; 
+	color:#1abc9c; 
 }
 
-.nav a:hover {
-	color: #34495e;
+.name:visited {
+	text-decoration: none; 
 }
 
-.nav a:focus {
-	color: #34495e;
+.name:active {
+	text-decoration: none; 
+}
+		
+.nav { 
+	position: fixed;
+	font-weight: 200; 
+	top: 30%;
+	bottom: 0; 
+	right: 0;
+	width: 425px; /* Width of navigation frame */
+	height: 100%;
+	overflow: hidden; /* Disables scrollbars on the navigation frame. To enable scrollbars, change "hidden" to "scroll" */
+	background: #eee;
 }
 
-.nav a:active {
-	color: #34495e;
+.main {
+	position: fixed;
+	top: 0; 
+	left: 0;
+	right: 425px; /* Set this to the width of the navigation frame */
+	bottom: 0;
+	overflow: auto; 
+	background: #e0e0e0;
 }
 
-.jumbotron {
-	background: #34495e;
-	color: #ecf0f1;
-	text-align: left;
-	padding-top: 0%;
-	padding-bottom: 8%;
-	margin: 0;
+.sides {
+	margin: 15px; /* Provides padding for the content */
 }
 
-.row {
-	padding: 5.5% 155px;
-	background-color: #ecf0f1;
+p {
+	color: #333;
 }
 
-.portfolio-item {
-	padding-top: 5px;
-	padding-bottom: 5px;
+nav ul {
+	list-style-type: none;
 	margin-top: 0;
-	margin-bottom: 0;
+	padding: 0;
+	text-align: center;
 }
 
-.third-jumbo {
-	background: #34495e;
-	color: #ecf0f1;
-	text-align: left;
-	padding-top: 2%;
-	padding-bottom: 2%;
+nav ul a {
+	color: #333;
+	text-decoration: none;
+}
+		
+/*IE6 fix*/
+* html body{
+	padding: 0 425px 0 0; /* Set the second value to the width of the navigation frame */
 }
 
-.third-jumbo h2 {
-	font-size: 26px;
+* html main{ 
+	height: 100%; 
+	width: 100%; 
 }
 
-.footer {
-	width: 100%;
-	color: #34495e;
-	background-color: #ecf0f1;
-	padding: 40px 0;
+.introduction {
+	margin-top: 22.5%;
 }
 
-.footer p {
-	color: #34495e;
+.link:link {
+	text-decoration: none; 
 }
+
+.link:hover {
+	text-decoration: none; 
+	color: #1abc9c;
+}
+
+.link:active {
+	text-decoration: none;  
+}
+
+.link:visited {
+	text-decoration: none; 
+}
+
